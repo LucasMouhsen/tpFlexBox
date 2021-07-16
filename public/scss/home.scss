@@ -1,65 +1,57 @@
 .home main {
-    .banner {
+    nav .banner {
       width: 100%;
     }
-  
     section {
       margin: 0 10%;
-  
       h3 {
         font-size: 24px;
         color: #666;
         padding-top: 10px;
         padding-bottom: 10px;
       }
-    }
-  
-    article {
-      background-color: white;
-      margin: 10px 0;
-  
-      img {
-        width: 100%;
-      }
-  
-      .caja {
-        display: flex;
-        align-items: center;
-        border-top: 1px solid #ebebeb;
-        padding: 15px 5px;
-        position: relative;
-      }
-  
-      i {
-        color: $colorVerde;
-        border: 1px solid;
-        padding: 5px;
-        border-radius: 50%;
-        font-size: 16px;
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        top: -15px;
-        right: 20px;
-      }
-  
-      .precio {
-        font-size: 18px;
-        width: 30%;
-      }
-  
-      .off {
-        font-size: 16px;
-        color: $colorVerde;
-        width: 70%;
-        padding-left: 10px;
-      }
-  
-      .articulo {
-        display: none;
+      article {
+        background-color: white;
+        margin: 10px 0;
+        img {
+          width: 100%;
+        }
+        .caja {
+          display: flex;
+          align-items: center;
+          border-top: 1px solid #ebebeb;
+          padding: 15px 5px;
+          position: relative;
+        }
+        i {
+          color: #39b54a;
+          border: 1px solid;
+          padding: 5px;
+          border-radius: 50%;
+          font-size: 16px;
+          width: 30px;
+          height: 30px;
+          position: absolute;
+          top: -15px;
+          right: 20px;
+        }
+        .precio {
+          font-size: 18px;
+          width: 30%;
+        }
+        .off {
+          font-size: 16px;
+          color: #39b54a;
+          width: 70%;
+          padding-left: 10px;
+        }
+    
+        .articulo {
+          display: none;
       }
     }
   }
+}
 
   @media (min-width: 361px) {
 
@@ -87,6 +79,7 @@
               display: inline;
               color: #c3c3c3;
               font-size: 16px;
+              margin-top: 15px;
             }
           }
         }

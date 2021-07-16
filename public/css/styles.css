@@ -4,10 +4,12 @@
   margin: 0;
   box-sizing: border-box;
 }
-* li {
+
+li {
   list-style: none;
 }
-* a {
+
+a {
   text-decoration: none;
 }
 
@@ -38,7 +40,7 @@
   text-align: center;
   padding: 20px 0;
 }
-.home header .burger-menu {
+.home header .centrado .burger-menu {
   display: inline-block;
   width: 30px;
   background-color: #1259c3;
@@ -75,20 +77,22 @@
   .home header .flex p {
     font-size: 12px;
   }
+  .home header .centrado {
+    display: none;
+  }
   .home header .container {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
   }
   .home header .container ul {
     display: flex;
   }
   .home header .container ul li a {
-    font-size: 9px;
-    padding: 0 2px;
-  }
-  .home header .centrado {
-    display: none;
+    font-size: 12px;
+    padding: 0 7px;
   }
 }
 @media (min-width: 769px) {
@@ -98,7 +102,7 @@
     padding-left: 10px;
   }
 }
-.home main .banner {
+.home main nav .banner {
   width: 100%;
 }
 .home main section {
@@ -110,21 +114,21 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.home main article {
+.home main section article {
   background-color: white;
   margin: 10px 0;
 }
-.home main article img {
+.home main section article img {
   width: 100%;
 }
-.home main article .caja {
+.home main section article .caja {
   display: flex;
   align-items: center;
   border-top: 1px solid #ebebeb;
   padding: 15px 5px;
   position: relative;
 }
-.home main article i {
+.home main section article i {
   color: #39b54a;
   border: 1px solid;
   padding: 5px;
@@ -136,17 +140,17 @@
   top: -15px;
   right: 20px;
 }
-.home main article .precio {
+.home main section article .precio {
   font-size: 18px;
   width: 30%;
 }
-.home main article .off {
+.home main section article .off {
   font-size: 16px;
   color: #39b54a;
   width: 70%;
   padding-left: 10px;
 }
-.home main article .articulo {
+.home main section article .articulo {
   display: none;
 }
 
@@ -179,6 +183,7 @@
     display: inline;
     color: #c3c3c3;
     font-size: 16px;
+    margin-top: 15px;
   }
 }
 @media (min-width: 769px) {
