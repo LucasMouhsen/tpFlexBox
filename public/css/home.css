@@ -2,7 +2,8 @@
   width: 100%;
 }
 .home main section {
-  margin: 0 10%;
+  width: 90%;
+  margin: 0 auto;
 }
 .home main section h3 {
   font-size: 24px;
@@ -51,9 +52,6 @@
 }
 
 @media (min-width: 361px) {
-  .home main section {
-    margin: 0 5%;
-  }
   .home main section .flex-box {
     display: flex;
     flex-wrap: wrap;
